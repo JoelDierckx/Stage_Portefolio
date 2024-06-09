@@ -1,0 +1,162 @@
+body {
+  display: block;
+  background-color: #dbdbdb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  margin: 0%;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.menuheader {
+  width: 30%;
+  text-align: left;
+  margin: auto;
+}
+.menuheaderphone {
+  text-align: left;
+  margin: 0%;
+}
+.menutail {
+  width: 70%;
+  text-align: end;
+}
+.menutailpc {
+  width: 450px;
+  margin: auto;
+  margin-right: 0px;
+}
+
+.mainmenu {
+  display: inline-block;
+  margin: 2%;
+  font-size: larger;
+}
+
+.mainbutton {
+  background-color: #0f0f0f;
+  border: #0f0f0f solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.menufix {
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  top: 0;
+}
+
+.spacer {
+  height: 80px;
+  width: 100%;
+}
+
+.button {
+  background-color: #ed9130;
+
+  padding: 10px;
+}
+
+.borderradius {
+  border-radius: 10px;
+}
+
+.menuhead {
+  font-size: 32px;
+}
+
+.bannerimg {
+  background-image: url("/img/code.png");
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-top: 30px;
+  height: auto;
+  overflow: hidden;
+}
+
+.blur {
+  backdrop-filter: blur(2px);
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+.bannercontent {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  padding: 10px;
+  position: relative;
+}
+
+.bannerprofile {
+  border-radius: 50%;
+  height: 180px;
+}
+
+.tabhr {
+  height: 3px;
+  width: 100%;
+  opacity: 1;
+}
+.imgcard {
+  width: 100%;
+}
+
+.fitcontent {
+  width: fit-content;
+}
+.selfcenter {
+  align-self: center;
+  margin-top: auto;
+  margin-bottom: 5px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+}
+
+.Font1 {
+  color: #ed9130 !important;
+}
+.Font2 {
+  color: #0f0f0f !important;
+}
+.Font3 {
+  color: white !important;
+}
+.Font4 {
+  color: #2d2e2e !important;
+}
+.Background1 {
+  background-color: #ed9130 !important;
+}
+.Background2 {
+  background-color: #0f0f0f !important;
+}
+.Background3 {
+  background-color: #dbdbdb !important;
+}
+.Background4 {
+  background-color: #2d2e2e !important;
+}
